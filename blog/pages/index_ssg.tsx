@@ -76,7 +76,7 @@ export default function Index({
   )
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const allPosts = getAllPosts([
     'title',
     'date',
